@@ -2,6 +2,7 @@ class Ccexplore < Formula
   desc "Explore your Claude Code history"
   homepage "https://github.com/ahmedelgabri/ccexplore"
   version "0.1.0"
+  license "MIT"
 
   on_macos do
     on_arm do
