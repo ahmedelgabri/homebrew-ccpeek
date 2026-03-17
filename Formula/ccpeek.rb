@@ -1,28 +1,28 @@
 class Ccpeek < Formula
   desc "Explore your Claude Code history"
   homepage "https://github.com/ahmedelgabri/ccpeek"
-  version "1.7.1"
+  version "1.7.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/ahmedelgabri/ccpeek/releases/download/v#{version}/ccpeek-#{version}-darwin-arm64.tar.gz"
-      sha256 "7bcb218d8f1381909336e7072d008001b313aaf1d33a843513f9c23bba18d7e4"
+      sha256 "8dedaf5f2f3703b5c2bbc14da1402fc590b578d368b61cb0bdad9b54ec94939e"
     end
     on_intel do
       url "https://github.com/ahmedelgabri/ccpeek/releases/download/v#{version}/ccpeek-#{version}-darwin-amd64.tar.gz"
-      sha256 "568bcd337803fcb996936e018b3f0fbdfd1e2e51fc3f180de4e984712d3253ce"
+      sha256 "079ab0e5204ff831b555ed85a6e9b4339117a29f84c31b18191defaad708d268"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ahmedelgabri/ccpeek/releases/download/v#{version}/ccpeek-#{version}-linux-arm64.tar.gz"
-      sha256 "565e346e32923d75f18e98873d599d11c0fc10d46d6bb854f27aa332c7669202"
+      sha256 "54c818d6007fe86ea60fb034d246ebc5368b252d0b6e353223bd3187c6489d66"
     end
     on_intel do
       url "https://github.com/ahmedelgabri/ccpeek/releases/download/v#{version}/ccpeek-#{version}-linux-amd64.tar.gz"
-      sha256 "7954043e6f3dacd1d346233edce6c043c2df3b45c1ae7a95d6a3c399e2b71b1f"
+      sha256 "81f5044f06addf271ff79d79dc35fbfc4c2ead6e2612c04157fa7f655c0aaacc"
     end
   end
 
