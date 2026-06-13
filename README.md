@@ -1,15 +1,19 @@
-# homebrew-ccpeak
+# homebrew-ccpeek has moved
 
-Homebrew tap for [CCPeak](https://github.com/ahmedelgabri/ccpeak).
+This tap has moved to the shared [ahmedelgabri/homebrew-tap](https://github.com/ahmedelgabri/homebrew-tap) repository.
 
-## Installation
+## Migration
 
-```sh
-brew install ahmedelgabri/ccpeak/ccpeak
+Install `ccpeek` from the new tap:
+
+```bash
+brew install ahmedelgabri/tap/ccpeek
 ```
 
-## Usage
+If you already tapped the old repository, you can remove it after installing from the new tap:
 
-```sh
-ccpeak --help
+```bash
+brew untap ahmedelgabri/ccpeek
 ```
+
+The old `ccpeek` formula is redirected via `tap_migrations.json`.
